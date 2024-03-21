@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+  }
+  .container {
+    background-color: #8b0000; 
+   
+    text-align: center;
+    color: white; 
+  }
+  .heading {
+    font-weight: bold;
+    font-size: 20px;
+    color: white; 
+  }
+  .italic-text {
+    font-style: italic;
+    font-size:14px;
+   
+  }
+  a{
+    color:orange;
+  }
+  .separator {
+    margin: 0 10px; /* Space between sentences */
+  }
+
+  .asterisk {
+    color: red; /* Red color for the asterisk */
+  }
+
+  .form{
+    background-color: lightyellow;
+  }
+
+  table,td,tr{
+    border:1px solid black;
+    border-collapse:collapse
+
+  }
+
+  .radio-options {
+    margin:0 10px; /* Space above the radio options */
+  }
+  .radio-options label {
+    margin-right: 20px; /* Space between radio options */
+  }
+
+  .input-field {
+    width: 20%; /* Adjust the width according to your design */
+    padding: px;
+    box-sizing: border-box;
+  }

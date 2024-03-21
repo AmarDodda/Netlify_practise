@@ -1,56 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Table</title>
-  <style>
-    table {
-      border-collapse: collapse;
-      
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request for New PAN Card</title>
+<link rel="stylesheet" href="styles.css">
 
-    th, td {
-      border: 1px solid black;
-      padding: 8px;
-      text-align: center;
-    }
-
-    
-  </style>
 </head>
 <body>
-  <table>
-    <tr>
-      <th>State of Health</th>
-      <th colspan="2">Fasting Value</th>
-      <th>After Remaining</th>
-    </tr>
-    <tr>
-      <td></td>
-      <th>Mininmum</th>
-      <th>Normal</th>
-      <th>2 hours of eating</th>
-    </tr>
-    <tr>
-      <td>healthy</td>
-      <td>70</td>
-      <td>100</td>
-      <td>Less than 140</td>
-    </tr>
-    <tr>
-      <td>Pre-Diabities</td>
-      <td>101</td>
-      <td>126</td>
-      <td>140 to 200</td>
-    </tr>
-    <tr>
-      <td>Diabetes</td>
-      <td>more than 126</td>
-      <td>Not Applicable</td>
-      <td>More than 200</td>
-    </tr>
+<div class="container">
+  <div class="heading">Request for new PAN card Or/And Changes Or Correction in PAN Data </div>
+  <div class="italic-text">
+
+    <span>Fields marked with <span class="asterisk">*</span> (asterisk) are important.</span>
+    <span class="separator"></span>
+    <span>To avoid mistakes please refer <a href="www.example.com">guidelines</a> and <a href="www.example.com">instructions</a></span>
     
-  </table>
+  </div>
+</div>
+<table width="100%">
+  <tr>
+    <td></td>
+    <td>  <label><span class="asterisk">*</span><b>Whether a citizen of India</b></label>
+      <label for="yes" style="padding-left: 40px;" >Yes</label>
+        <input type="radio" name="citizen" value="yes"> 
+        <label for="no" style="padding-left: 40px;" >No</label>
+        <input type="radio" name="citizen" value="no"> 
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><label for="pan_card" class="input-label"><span class="asterisk">*</span><b>Permanent Account Number(PAN):</b></label>
+      <label><input type="text" id="pan_card" name="pan_card" class="input-field" placeholder="Enter PAN"></label></td>
+  </tr>
+
+  <tr>
+    <td width="20px" style="text-align: center; padding: 0;">
+      <input type="checkbox" name="" id="">
+
+    </td>
+
+    <td>
+
+      <b><span class="asterisk">*</span>1.Name</b>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>
+      <b>Title</b>
+      <label for="Shri/Mr" style="padding-left: 40px;" >Shri/Mr</label>
+      <input type="radio" name="citizen" value="Shri/Mr"> 
+      <label for="Smt/Ms" style="padding-left: 40px;" >Smt/Ms</label>
+      <input type="radio" name="citizen" value="Smt/Ms">
+      <label for="Kumari/Ms" style="padding-left: 40px;" >Kumari/Ms</label>
+      <input type="radio" name="citizen" value="Kumari/Ms">
+    </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td><div style="display: inline-block;"><b>Last Name/Surname:</b><br>
+      <input type="text" id="name" name="name"></div>
+
+      <div style="display: inline-block; padding-left: 300px;"><b>First Name:</b><br>
+        <input type="text" id="name" name="name"></div>
+
+        <div style="display: inline-block; padding-left: 300px;"><b>Middle Name:</b><br>
+          <input type="text" id="name" name="name"></div>
+
+    </td>
+  </tr>
+</table>
+
+
+</div>
+
 </body>
 </html>
+
