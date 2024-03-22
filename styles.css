@@ -42,15 +42,15 @@ body {
 
   }
 
-  .radio-options {
-    margin:0 10px; /* Space above the radio options */
-  }
-  .radio-options label {
-    margin-right: 20px; /* Space between radio options */
+  .green{
+
+    color: green;
+
   }
 
-  .input-field {
-    width: 20%; /* Adjust the width according to your design */
-    padding: px;
-    box-sizing: border-box;
-  }
+.spaceforp{
+  width: 325px;
+  display: inline-block
+}
+
+  
